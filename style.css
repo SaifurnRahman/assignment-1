@@ -78,6 +78,9 @@ p{
     border: 1px solid #ddd;
     padding: 20px;
 }
+.pillers:hover{
+    background:#006a504b;
+}
 .pillers h3{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -208,5 +211,99 @@ p{
 /* donation section */
 .donation-section{
     text-align: center;
+    width: 1180px;
+}
+.donation-section .donate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.donation-section .donate input{
+    padding: 10px;
+    width: 980px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 20px;
+    color: #0e0e0e62;
+    border: 0; 
+}
+.donation-section .donate button{
+    background: #006A50;
+    font-size: 18px;
+    padding: 15px 20px;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.2s;
+}
+.donation-section .donate button:hover{
+    background: #014433;
+}
+.donation-amount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    width: 1080px;
+    margin: 0 auto;
+
+}
+.donation-amount h1{
+    background: white;
+    padding: 25px 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: 0.2s;
+}
+.donation-amount h1:hover{
+   background: #08693d52;
+}
+
+/* subscribe section */
+.subscribe-section {
+    background-color: #C6E4D6 ;
+    text-align: center;
+    border-radius: 10px;
+    padding: 80px 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.subscribe-section h1{
+    margin-top: 0;
+}
+.subscribe-section p {
+    width: 600px;
+    margin: 0 auto;
+}
+.subscribe-section .subscribe{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.subscribe-section .subscribe input{
+    width: 500px;
+    border:none;
+    border-radius: 5px 0 0 5px;
+    padding: 15px;
+    color: #0e0e0e44;
+}
+.subscribe-section .subscribe button{
+    background-color: #006A50;
+    color: white;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.subscribe-section .subscribe button:hover{
+    background-color: #034736;
+   
 }
 
