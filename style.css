@@ -263,6 +263,10 @@ p{
 .donation-amount h1:hover{
    background: #08693d52;
 }
+.donation-amount .taka {
+    background: #13a8654f;
+    
+}
 
 /* subscribe section */
 .subscribe-section {
